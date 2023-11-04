@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To PSIT Notes.com</title>
+    <style>
+        /* Common styles for all screen sizes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        header {
+            background-color:#fff;
+            color: #fff;
+            text-align: center;
+            padding: 3vh 0;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 130%; /* Decrease font size by 30% */
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 1vw 0;
+        }
+
+        nav a {
+            color: #e7e7e7;
+            text-decoration: none;
+            margin: 0 2vw;
+            font-size: 70%; /* Decrease font size by 30% */
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 90vw;
+            margin: 1vh auto;
+            padding: 1vw;
+            background-color: #d2d2d4;
+            box-shadow: 0 0 2vh rgba(0, 0, 0, 0.1);
+        }
+
+        .subject {
+            border: 2px solid #050505;
+            padding: 1vh;
+            margin: 0.5vh 0;
+        }
+
+        /* Media query for smaller screens */
+        @media screen and (max-width: 768px) {
+            header {
+                padding: 3vh 0;
+                background-color: black;
+            }
+
+            nav {
+                padding: 2px 0;
+            }
+
+            nav a {
+                margin: 0 1vw;
+            }
+
+            .container {
+                background-color: rgb(29, 221, 11);
+                padding: 1vw;
+                margin: 0.5vh auto;
+                border-radius: 10px;
+            }
+
+            .subject {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                background-color: rgb(29, 221, 11);
+                padding: 1vh;
+                color : white ;
+                margin: 1vh 0;
+                height: 12vh;
+            }
+            h1{
+                /* color:rgb(161, 6, 39) ;  */
+                color: #10c46a;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style = "color : rgb(29, 221, 11)">WELCOME TO PSIT NOTES.com</h1>
+        <hr>
+        <h3 style="color : rgb(29,221,11)">NOW GET NOTES FOR VARIOUS SUBJECTS FOR FREE</h3>
+        <hr>
+        <h3 style="color:rgb(29,221,11)">AS PER YOUR REQUIREMENT</h3>
+        <hr>
+    </header>
+
+    <!-- <nav>
+        <a href="#">MENU</a>
+        <a href="#">BLOG</a>
+        <a id = "contact" href="#">CONTACTS US </a>
+    
+        <a href="#">HELP</a>
+        <a href="#">SERVICES</a>
+    
+    </nav> -->
+
+    <div class="container">
+        <a href="secpagefinal.html"><div class="subject">
+            <h1>B.Tech 1st year notes</h1>
+            <!-- <hr>
+            <h2>Branch: Computer Science And Engineering</h2> -->
+        
+        </div></a>
+
+        <div class="subject">
+            <h1>B.Tech 2nd year notes</h1>
+            <!-- <hr>
+            <h2>Branch: Artifical Intelligence & Machine Learning</h2> -->
+            
+        </div>
+
+        <div class="subject">
+            <h1>B.Tech 3rd year notes</h1>
+            <!-- <hr>
+            <h2>Brach: Information Technology</h2> -->
+        </div>
+        <!-- <div class="subject">
+            <h1>B.Tech 3rd year notes</h1>
+            <hr>
+            <h2>Branch: Civil Engineering</h2>
+    
+        </div> -->
+
+        <div class="subject">
+            <h1>B.Tech 4th year notes</h1>
+            <!-- <hr>
+            <h2>Branch: Mechanical Engineering</h2> -->
+        
+        </div>
+
+        <!-- <div class="subject">
+            <h1>B.Tech 1 year notes</h1>
+            <hr>
+            <h2>Branch: Electronics Engineering </h2>
+    
+        </div> -->
+    </div>
+    <script>
+        document.getElementById("contact").addEventListener("click", function() {
+            alert("If have any query regarding our work you can male at : @gmail.com or you can call at Mo. No : 458797908");
+        });
+    </script>
+</body>
+</html>
