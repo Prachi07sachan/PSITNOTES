@@ -1,0 +1,81 @@
+#mainhead {
+    display: flex;
+    justify-content: center;
+    color : green ; 
+}
+
+#alup { /* Apply the styles to both tables by using a common selector */
+    display: flex;
+    justify-content: center;
+    
+}
+
+#alup table{ /* Apply the styles to both tables by using a common selector */
+    border: 2px solid black;
+    /* display: flex; */
+    justify-content: center;
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse ;
+}
+
+.th {
+    /* height : 4vh ;  */
+    width: 30vw;
+    font-size: 3vh;
+    border: 4px solid black;
+    text-align: center; /* Center the text horizontally within the table header cells */
+    border-collapse: collapse ;
+}
+
+.tr {
+    height: 3vh;
+    background-color: green;
+}
+
+#alup td, #toup td { /* Apply the styles to both tables by using a common selector */
+    border: 2px solid black;
+    text-align: center; /* Center the text horizontally within the table data cells */
+}
+
+#uphead {
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+}
+
+#toupmain{
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+.form-lable {
+    margin:2vh 0vw 2vh 0vw;
+    /* padding: 2vh 2vw; */
+}
+.btn{
+    padding : 2vh 4vw 2vh 4vw ; 
+    background-color: greenyellow;
+    margin: 5vh 40vw;
+}
+input {
+    margin : 0vh 1vw 0vh 0vw ; 
+    height: 3vh;
+    width: 15vw ;
+    border-color: brown;
+    border-radius: 2vh;
+}
+.Container{
+    margin:4vh 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    border-radius: 5vh;
+}
+.input-div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
