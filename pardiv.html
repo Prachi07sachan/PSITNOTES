@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="assets/css/pardiv.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id = "mainhead"><h1 style="font-size: 8vh;">Partial Diff Notes :</h1></div>
+    <br> <hr>
+    <div id = "uphead"><h2>Uploaded Notes</h2></div>
+    <div id="alup">
+        <table class = "table">
+            <tr class = "tr">
+                <th class= "th">Title</th>
+                <th class= "th">Uploaded By</th>
+                <th class= "th">Link</th>
+                <th class="th">Likes</th>
+                <th class="th">Action</th>
+            </tr>
+            <!-- <tr class = "tr" id = "tr2">
+                <td><h2>Topper's Notes</h2></td>
+                <td><h2>Pawan & Prachi</h2></td>
+                <td><a href="https://drive.google.com/file/d/1ADH_jPW1nsVF12k6gY0Dnbk2mNCJsQKh/view?usp=drive_link" target="_blank"><h2>Click</h2></a></td>
+                <td><h2>0</h2></td>
+            </tr> -->
+        </table>
+    </div>
+    <br> <br><hr> <br>
+    <div id="toupmain"><h1>Upload your own notes(Only for faculties)</h1></div>
+    <div class="Container">
+      <form action="/save" method="post">
+
+        <div class = "input-div">
+          <span class = "form-lable">
+            <label for="topic">Teacher's Code : </label>
+            <input type="password" id="code" name="code" required />
+          </span>
+          <span class="form-lable">
+            <label for="topic">Title:</label>
+            <input type="text" id="topic" name="topic" required />
+          </span>
+        </div>
+
+        <div class = "input-div">
+          <span class="form-lable">
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" required />
+          </span>
+  
+          <span class="form-lable">
+            <label for="link">Drive's Link:</label>
+            <input type="text" id="link" name="link" required />
+          </span>
+        </div>
+        <div class = "save-btn"><button class="btn" type="submit">Save</button></div>
+      </form>
+    </div>
+    <!-- <script>
+        function displayData() {
+            // Get the user input
+            // var userInput = document.getElementById("userInput").value;
+
+            // // Get the display div
+            // var displayDiv = document.getElementById("displayDiv");
+
+            // // Set the content of the div to the user input
+            // displayDiv.textContent = "You entered: " + userInput;
+
+            const title = document.getElementById("title").value ; 
+            const tr = document.createElement('tr');
+            table.append(tr) ; 
+            var newtd = document.createElement('td'); 
+            var newText = document.createTextNode(title) ; 
+            newtd.appendChild(newText) ; 
+            table.lastElementChild.append(newtd) ; 
+
+            var newtd = document.createElement('td') ; 
+            const file = document.getElementById("file").value ; 
+            var newtd = document.createTextNode(file) ; 
+            newtd.appendChild(file) ; 
+            table.lastElementChild.append(newtd) ; 
+
+            // var userId = document.getElementById("userId").value ; 
+            // var displayId = document.getElementById("displayId") ; 
+            // displayId.textContent = "Your Id : " + userId ; 
+
+            // var userroll = document.getElementById("userroll").value ; 
+            // var displayroll = document.getElementById("displayroll") ; 
+            // displayroll.textContent = "Your RollNo : " + userroll ; 
+        }
+    </script> -->
+    <script src="assets/js/pardiv.js"></script>
+</body>
+</html>
